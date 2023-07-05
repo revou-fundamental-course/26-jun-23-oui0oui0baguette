@@ -6,7 +6,7 @@
 /* Bagian Atas dari section home */
 
 @media only screen and (max-width: 600px){
-    
+
     #OurPackage {
         width: 200%;
     }
@@ -229,6 +229,15 @@ hr.solid {
 }
 
 #emailaddress {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+}
+#phonenumber {
     width: 300px;
     box-sizing: border-box;
     border: 2px solid #ccc;

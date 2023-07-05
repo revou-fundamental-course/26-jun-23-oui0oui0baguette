@@ -22,8 +22,9 @@ function validateForm() {
     var name = document.forms['FormText']['name'].value;
     var emailaddress = document.forms['FormText']['emailaddress'].value;
     var Options = document.forms['FormText']['Options'].value;
-    
-    if (name == '' || emailaddress =='' || Options == '') {
+    var phonenumber = document.forms['FormText']['phonenumber'].value;
+
+    if (name == '' || emailaddress =='' || Options == '' || phonenumber == '') {
         alert("Tidak ada boleh yang kosong")
         return false;
     }
