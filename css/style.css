@@ -6,22 +6,13 @@
 /* Bagian Atas dari section home */
 
 @media only screen and (max-width: 600px){
-    #menu {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
+    
+    #OurPackage {
+        width: 200%;
     }
-   header {
-    position: relative;
-   }
-   #Callus {
-    position: absolute;
-    top: 0;
-    right: 0;
-   }
-   #Form {
-    position: relative;
-   }
+    #endingstatement {
+        width: 215%;
+    }
 }
 body {
     margin: 0px;
@@ -115,12 +106,27 @@ nav ul li a:hover {
 }
 #Gambar img{
     float: left;
-    margin: auto;
+    margin-bottom: 20px;
     max-width: 100%;
     max-height: 100%;
 }
+#gambar{
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+#caption{
+    margin-top: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5e5e5e;
+    font-style: italic;
+    text-align: left;
+}
 ol {
     margin: 10px;
+}
+.imagemain {
+    margin-bottom: 20px;
 }
 #subskreb {
     font-family: 'DM Serif Display';
@@ -133,13 +139,46 @@ ol li {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
-/* Section Call */
+#Testimoni {
+    margin-left: 70px;
+    padding: 0;
 
-#CallUs{
-    justify-content: center;
-    display: flex;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+    width: 400px;
+    margin-left: -20px;
+}
+
+.slider {
+    width: 100%;
     position: relative;
 }
+  
+.slider ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+  
+.slider li.active {
+    opacity: 1;
+}
+.margintext {
+    margin-top: 520px;
+}
+/* Section Call */
+
+
 #Form{
     float: right;
     position: relative;
@@ -168,24 +207,9 @@ ol li {
     color: #efefef;
     margin: 50px 50px;
 }
-#caption{
-    margin-top: 520px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: #5e5e5e;
-    font-style: italic;
-    text-align: left;
-}
 .okupasi {
     color: #5e5e5e;
     font-size: small;
-}
-hr.solid {
-    border-top: 2px solid #bbb;
-}
-hr.solid1 {
-    display: flex;
-    border-top: 1px solid #bbb;
-    width: 100%;
 }
 #FormText {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -234,11 +258,6 @@ option {
 }
 select {
     color: #818181;
-}
-#Testimoni {
-    margin-left: 70px;
-    padding: 0;
-
 }
 #submit {
     width: 300px;
