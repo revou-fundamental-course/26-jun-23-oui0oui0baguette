@@ -8,10 +8,22 @@
 @media only screen and (max-width: 600px){
 
     #OurPackage {
-        width: 200%;
+        width: 300%;
     }
     #endingstatement {
-        width: 215%;
+        width: 300%;
+    }
+    .benefits {
+        margin-right: -820px;
+        margin-left: -110px;
+    }
+    .footer-section {
+        margin-right: -3000px;
+        justify-content: right;
+
+    }
+    #subtitle {
+        margin-right: -50%;
     }
 }
 body {
@@ -317,6 +329,14 @@ select {
 }
 .benefits div {
     padding: 30px;
+}
+.benefits p {
+    margin-left: 50px;
+}
+.benefits img {
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
 }
 .benefits {
     margin-bottom: 100px;
